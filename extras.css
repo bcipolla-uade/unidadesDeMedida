@@ -1,0 +1,114 @@
+/* Archivo externo de estilos */
+:root{
+    --color-gris: grey;
+}
+body {
+    padding: 0;
+    margin:0;
+    background-color: rgb(52, 51, 51);
+  }
+
+.titulo-lugar{
+    color:var(--color-gris);
+    margin-top: 50px;
+    font: 2em sans-serif;
+    
+
+}
+header{
+    margin-top: 50px;
+    color: rgb(222, 15, 15);
+    border: solid rgb(9, 9, 9);
+}
+table{
+    color: rgb(124, 134, 134);
+   
+
+}
+
+#orden{
+    display:flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.recomendacion{
+    display:grid;
+}
+#orden-despues-de-hr{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+.menu-2,.menu-3{
+    display: inline;
+}
+img{
+    width: 150px;
+    height: auto;
+    padding-bottom: 2em;
+    opacity: 0.6;
+}
+.horarios{
+    background-color: rgb(156, 44, 44);
+    display: inline-block;
+    
+}
+.contenedor{
+    display: grid;
+    
+}
+
+.menu-border{
+    border: dashed ;
+    display: flex;
+    justify-content: space-between;
+}
+#imagenes-aisladas{
+    display: flex;
+    justify-content: center;
+    
+}
+#imagenes-medio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+    background-color: rgb(113, 3, 3);
+
+}
+.item img{
+    background: rgb(113, 3, 3);
+    padding: 10px;
+    width: 150px;
+    height: 160px;
+    
+}
+.pie {
+    text-align: center;
+}
+.menu-1956{
+    display: flex;
+    justify-content: space-between;
+}
+.recomendacion{
+ background-color:rgb(113, 3, 3);
+}
+.auto-style8{
+    font-weight: 200;
+}
+#info-contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#carrete{
+    display: flex;
+    justify-content: center;
+    
+    
+}
